@@ -1,9 +1,9 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
     return (
-        <div>
-            <header>
-                <h1>Home</h1>
-            </header>
+        <div className="home-page">
+            <h2 className="shop-now-btn"><Link to={'/shop'}>Shop Now</Link></h2>
         </div>
     );
 };
