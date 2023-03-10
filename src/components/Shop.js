@@ -1,9 +1,18 @@
+import Card from "./Card";
+
 export default function Shop() {
     return (
-        <div>
-            <header>
-                <h1>Shop</h1>
-            </header>
+        <div className="shop-page">
+            <div className="item-container">
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+                <Card/>
+            </div>
         </div>
     );
 };

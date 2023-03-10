@@ -60,6 +60,60 @@ body {
     border-radius: 12px;
 }
 
+.shop-page {
+    height: 100%;
+    padding: 1rem;
+    background-color: #ffffff;
+}
+.item-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+.card {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.33);
+    transition: 0.3s;
+    display: grid;
+    grid-template-rows: 1fr min-content;
+    border-radius: 2vh;
+    overflow: hidden;
+}
+.card:hover {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card-desc-container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+
+}
+.card-desc-container > * {
+    margin: 0;
+    padding: .5rem;
+}
+.image-container{
+    background-color: black;
+    display: grid;
+    justify-content: center;
+}
+.image-container > img {
+    height: 100%;
+}
+.number-input > input[type=number] {
+    width: 100%;
+    text-align: center;
+}
+.incrementers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.add-to-cart-btn {
+    margin-bottom: .5rem;
+    border-radius: 2vh;
+}
+
 .page-footer {
     background-color: #ffecb3;
     text-align: center;
