@@ -28,7 +28,7 @@ body {
 }
 
 .page-nav-header {
-    background-color: #ffcdd2;
+    background-color: #757aad;
     display: flex;
     justify-content: space-between;
     padding-left: 20%;
@@ -159,6 +159,7 @@ body {
 }
 
 .page-footer {
-    background-color: #ffecb3;
+    background-color: #375b60;
+    color: white;
     text-align: center;
 }

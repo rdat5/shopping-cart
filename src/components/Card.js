@@ -1,4 +1,3 @@
-import testImage from "../img/barrel.jpg";
 import { cardData } from "../data.js";
 
 export default function Card({ itemIndex }) {
