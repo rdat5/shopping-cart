@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-export default function NavBar() {
+export default function NavBar( {cartItemCount} ) {
     return (
     <nav className="page-nav-header">
         <h1>Brand Store</h1>
@@ -12,7 +12,7 @@ export default function NavBar() {
                 <Link to={'/shop'} className='nav-link'>Shop</Link>
             </li>
             <li>
-                <Link to={'/cart'}>🛒</Link>
+                <Link to={'/cart'}>🛒 ({cartItemCount})</Link>
             </li>
         </ul>
     </nav>

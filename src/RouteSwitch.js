@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Shop from "./components/Shop";
@@ -6,10 +6,12 @@ import ShoppingCart from "./components/ShoppingCart";
 import NavBar from "./components/NavBar";
 
 export default function RouteSwitch() {
+    const [cart, setCart] = useState([]);
+
     return (
         <div className="page-wrap">
             <BrowserRouter>
-                    <NavBar/>
+                    <NavBar cartItemCount={cart.length}/>
                     <div className="page-main">
                         <Routes>
                             <Route path="/" element={<Home />} />
