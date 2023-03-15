@@ -6,16 +6,16 @@ import ShoppingCart from "./components/ShoppingCart";
 import NavBar from "./components/NavBar";
 
 export default function RouteSwitch() {
-    const [cart, setCart] = useState([]);
+    const [cartItems, setCartItems] = useState([]);
 
     return (
         <div className="page-wrap">
             <BrowserRouter>
-                    <NavBar cartItemCount={cart.length}/>
+                    <NavBar cartItemCount={cartItems.length}/>
                     <div className="page-main">
                         <Routes>
                             <Route path="/" element={<Home />} />
-                            <Route path="/shop" element={<Shop />} />
+                            <Route path="/shop" element={<Shop setCartFn={setCartItems}/>} />
                             <Route path="/cart" element={<ShoppingCart />}/>
                         </Routes>
                     </div>
