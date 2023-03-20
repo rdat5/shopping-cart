@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.cfc5f1c4.css",
+    "main.js": "/shopping-cart/static/js/main.437156b9.js",
+    "static/media/sea-g1222d28f1_640.jpg": "/shopping-cart/static/media/sea-g1222d28f1_640.f771712e84a0692675b9.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "main.cfc5f1c4.css.map": "/shopping-cart/static/css/main.cfc5f1c4.css.map",
+    "main.437156b9.js.map": "/shopping-cart/static/js/main.437156b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfc5f1c4.css",
+    "static/js/main.437156b9.js"
+  ]
+}
